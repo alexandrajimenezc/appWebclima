@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack -p",
+    "dev": "webpack-dev-server -d",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
